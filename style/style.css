@@ -1,0 +1,172 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.header
+{
+    background-color: coral;
+    padding: 2rem;
+}
+.mainheading
+{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.homebtn
+{
+    text-align: center;
+    width: 60px;
+    display: block;
+    margin: 2rem;
+    background-color: coral;
+    padding: 1.4rem;
+    color: white;
+}
+
+.group-btn
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.form
+{
+    display: inline-block;
+}
+.form input,textarea
+{
+    padding: 0.8rem;
+    margin: 0.6rem;
+    width: 250px;
+}
+
+.form select
+{
+    padding: 0.8rem;
+    margin: 0.6rem;
+    width: 280px;
+}
+.form input[type='submit']
+{
+    width: 100px;
+    padding: 0.6rem;
+    margin: 0.6rem;
+    background-color: coral;
+    color: white;
+    outline: none;
+    border: none;
+}
+.form-container
+{
+    margin: 2rem;
+    text-align: center;
+}
+
+.form label
+{
+    display: block;
+    text-align: left;
+    margin-bottom: -0.8rem;
+    margin-left: 0.5rem;
+    color: coral;
+    font-weight: 700;
+}
+.backto
+{
+    display: block;
+    text-align: center;
+}
+
+.error
+{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    padding: 1rem;
+}
+
+.pass
+{
+    text-align: center;
+    font-size: 2rem;
+    color: green;
+    padding: 1rem;
+}
+
+.admin_fxn
+{
+    text-align: center;
+    margin: 4rem;
+}
+
+.admin_fxn a
+{
+    text-decoration: none;
+    background-color: coral;
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    margin: 2rem;
+}
+
+table
+{
+    margin: 0 auto;
+    border: 1px solid coral;
+    border-collapse: collapse;
+    margin-top: 3rem;
+}
+table td
+{
+    column-span: none;
+    border: 1px solid coral;
+    padding: 1rem;
+}
+
+table th
+{
+    column-span: none;
+    border: 1px solid coral;
+    padding: 1rem;
+}
+
+.questionlist
+{
+    margin: 0 0 0 30px;
+    vertical-align: middle;
+    padding: 0.4rem;
+}
+
+.questionlist ol
+{
+    margin: 2rem;
+}
+
+.questionlist ol li
+{
+    margin: 1rem;
+}
+
+.questionlist ol li div
+{
+    padding: 0.4rem;
+}
+
+.questionlist input[type='submit']
+{
+    margin-top: -20px;
+    margin-left: 40px;
+    background-color: coral;
+    color: white;
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+}

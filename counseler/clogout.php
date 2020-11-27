@@ -1,0 +1,9 @@
+<?php
+    session_start();
+    if(isset($_SESSION['counseler']))
+    {
+        unset($_SESSION['counseler']);
+        header("Location:clogin.php");
+        die();
+    }
+?>
